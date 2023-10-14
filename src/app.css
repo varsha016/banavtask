@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+ .navbar{
+    background-color: white;
+ }
+ .heroBackground{
+    height: 60vh;
+    width: 100%;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+ }
+ .blue{
+    color: blue;
+ }
+ .post-mid{
+     margin-top: 0px;
+     display: flex;
+     justify-content: center;
+ }
+.text-white{
+    color: white;
+}
+.text-bold{
+    font-weight: bold;
+}
+.main{
+    position: relative;
+}
+.sub{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+.main-inline{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.inp{
+    position: relative;
+}
+.bi-search{
+    top: 3px;
+    left: 14px;
+    margin-top: 2px;
+    position: absolute;
+}
+.rounded-inp{
+    border: 1px solid gainsboro;
+    background-color: #F2F2F2;
+    text-align: center;
+    min-width: 400px !important;
+    border-radius: 20px;
+    padding: 4px;
+}
+.main-card{
+    padding: 20px;
+}
+.brn-end{
+    color: black;
+    display: flex;
+    justify-content: end;
+}
+.alert-fonts{
+    font-size: 11px;
+}
+.btn-c{
+    border-radius: 25px;
+}
+.alert-font{
+    font-size: 14px;
+    color: green;
+}
+.spaces{
+    display: flex;
+    gap: 9px;
+    align-items: end;
+}
+.underline{
+    text-decoration: underline;
+}
+.navbar-btn{
+    display: flex;
+    gap: 10px;
+    align-items: end;
+}
+.bg{
+    background-color: white;
+border-bottom: 1px solid black;
+}
+.modal-content{
+    width: 50vw;
+}
+.text-mid{
+    text-align: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.batch{
+    background-color: gainsboro;
+    padding: 7px;
+    border-radius: 20px;
+}
+.modal-content{
+
+    @media  (max-Width:600px)  {
+        width: 80vw;
+    }
+}
+
+.rounded-inp{
+    @media (max-Width:600px) {
+        min-width: 300px !important;   
+    }
+}
+.signup{
+    @media  (max-Width:600px)  {
+        display: block;
+    }
+}
+.signup-img{
+    @media (max-Width:600px)  {
+        display: none;
+    }
+}
+.horizontal-line {
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+  }
+  
+  .placeholder {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .input-field {
+    border: none;
+    border-bottom: 2px solid #000; 
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    font-size: 16px;
+  }
+.icons-search{
+    position: absolute;
+    display: flex;
+    gap: 10;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: -10px;
+}  
