@@ -11,7 +11,8 @@ import sarah from "./../img/sarah.png";
 import ronal from "./../img/ronal.png";
 import meetup from "./../img/meetup.png";
 import Vector from "./../img/Vector.png"
-
+import joseph from "./../img/joseph.png"
+import "../css/posts.css"
 
 const Posts = () => {
   return <>
@@ -19,24 +20,24 @@ const Posts = () => {
       <PostNavbar />
       <div className="row mt-4 mb-4">
         <div className="col-md-8 col-sm-12">
-          <div class="card mb-4">
+          <div className="card mb-4">
             <img src={article} alt="" />
             <div className='main-card'>
               <div className='spaces'>
-                <div><i class="bi bi-pencil-square"></i></div>
+                <div><i className="bi bi-pencil-square"></i></div>
                 <h6>Artical</h6>
               </div>
 
               <div className='main-inline'>
                 <h2>What if famous brands had regular fonts? Meet RegulaBrands!</h2>
-                <div class="dropdown">
-                  <div class="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" >
-                    <i class="bi bi-three-dots-vertical"></i>
+                <div className="dropdown">
+                  <div className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" >
+                    <i className="bi bi-three-dots-vertical"></i>
                   </div>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Edit</a></li>
-                    <li><a class="dropdown-item" href="#">Report</a></li>
-                    <li><a class="dropdown-item" href="#">Opations 3</a></li>
+                  <ul className="dropdown-menu">
+                    <li><a className="dropdown-item" href="#">Edit</a></li>
+                    <li><a className="dropdown-item" href="#">Report</a></li>
+                    <li><a className="dropdown-item" href="#">Opations 3</a></li>
                   </ul>
                 </div>
               </div>
@@ -49,31 +50,34 @@ const Posts = () => {
                   <h6>Sarthak Kamra</h6>
                 </div>
                 <div className='spaces'>
-                  <p><i class="bi bi-eye-fill"></i></p>
+                  <p><i className="bi bi-eye-fill"></i></p>
                   <p> 1.4k views</p>
                 </div>
-                <i class="bi bi-share"></i>
+                <div className='bgColor'>
+
+                  <i className="bi bi-share"></i>
+                </div>
               </div>
             </div>
           </div>
-          <div class="card mb-4">
+          <div className="card mb-4">
             <img src={education} alt="" />
             <div className='main-card'>
               <div className='spaces'>
-                <div><i class="bi bi-pencil-square"></i></div>
+                <div><i className="bi bi-pencil-square"></i></div>
                 <h6>Education</h6>
               </div>
 
               <div className='main-inline'>
                 <h2>Tax Benefits for Investment under National Pension Scheme launched by Government</h2>
-                <div class="dropdown">
-                  <div class="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" >
-                    <i class="bi bi-three-dots-vertical"></i>
+                <div className="dropdown">
+                  <div className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" >
+                    <i className="bi bi-three-dots-vertical"></i>
                   </div>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Edit</a></li>
-                    <li><a class="dropdown-item" href="#">Report</a></li>
-                    <li><a class="dropdown-item" href="#">Opations 3</a></li>
+                  <ul className="dropdown-menu">
+                    <li><a className="dropdown-item" href="#">Edit</a></li>
+                    <li><a className="dropdown-item" href="#">Report</a></li>
+                    <li><a className="dropdown-item" href="#">Opations 3</a></li>
                   </ul>
                 </div>
               </div>
@@ -86,32 +90,35 @@ const Posts = () => {
                   <h6>Sarah West</h6>
                 </div>
                 <div className='spaces'>
-                  <p><i class="bi bi-eye-fill"></i></p>
+                  <p><i className="bi bi-eye-fill"></i></p>
                   <p> 1.4k views</p>
                 </div>
-                <i class="bi bi-share"></i>
+                <div className='bgColor'>
+
+                  <i className="bi bi-share"></i>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="card mb-4">
+          <div className="card mb-4">
             <img src={meetup} alt="" />
             <div className='main-card'>
               <div className='spaces'>
-                <div><i class="bi bi-pencil-square"></i></div>
+                <div><i className="bi bi-pencil-square"></i></div>
                 <h6>Meetup</h6>
               </div>
 
               <div className='main-inline'>
                 <h2>Finance & Investment Elite Social Mixer @Lujiazui</h2>
-                <div class="dropdown">
-                  <div class="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" >
-                    <i class="bi bi-three-dots-vertical"></i>
+                <div className="dropdown">
+                  <div className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" >
+                    <i className="bi bi-three-dots-vertical"></i>
                   </div>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Edit</a></li>
-                    <li><a class="dropdown-item" href="#">Report</a></li>
-                    <li><a class="dropdown-item" href="#">Opations 3</a></li>
+                  <ul className="dropdown-menu">
+                    <li><a className="dropdown-item" href="#">Edit</a></li>
+                    <li><a className="dropdown-item" href="#">Report</a></li>
+                    <li><a className="dropdown-item" href="#">Opations 3</a></li>
                   </ul>
                 </div>
               </div>
@@ -119,19 +126,19 @@ const Posts = () => {
               <div className='mt-4 mb-4'>
                 <div className='main-inline'>
                   <p>
-                    <span><i class="bi bi-calendar2-event-fill"></i></span>
+                    <span><i className="bi bi-calendar2-event-fill"></i></span>
                     <span> Fri, 12 Oct, 2018</span>
 
                   </p>
                   <p>
-                    <span><i class="bi bi-geo-alt"></i></span>
+                    <span><i className="bi bi-geo-alt"></i></span>
                     Ahmedabad, India
                   </p>
                 </div>
               </div>
 
               <div className="d-grid">
-                <button type="button" class="mb-4 btn btn-outline-danger">Visit Website</button>
+                <button type="button" className="mb-4 btn btn-outline-danger">Visit Website</button>
               </div>
 
 
@@ -142,87 +149,92 @@ const Posts = () => {
                   <h6>Ronal Jones</h6>
                 </div>
                 <div className='spaces'>
-                  <p><i class="bi bi-eye-fill"></i></p>
+                  <p><i className="bi bi-eye-fill"></i></p>
                   <p> 1.4k views</p>
                 </div>
-                <i class="bi bi-share"></i>
+                <div className='bgColor'>
+
+                  <i className="bi bi-share"></i>
+                </div>
               </div>
             </div>
           </div>
 
 
-          {/* <div class="card mb-4">
-<img src={meetup} alt="" />
-<div className='main-card'>
-    <div className='spaces'>
-<div><i class="bi bi-pencil-square"></i></div>
-    <h6>Meetup</h6>
-    </div>
+          <div className="card mb-4">
+            <div className='main-card'>
+              <div className='spaces'>
+                <div><i className="bi bi-briefcase"></i></div>
+                <div className='p-0'>Job</div>
+              </div>
 
-    <div className='main-inline'>
-    <h2>Finance & Investment Elite Social Mixer @Lujiazui</h2>
-    <div class="dropdown">
-      <div class="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" >
-      <i class="bi bi-three-dots-vertical"></i>
-      </div>
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#">Edit</a></li>
-        <li><a class="dropdown-item" href="#">Report</a></li>
-        <li><a class="dropdown-item" href="#">Opations 3</a></li>
-      </ul>
-    </div>
-    </div>
+              <div className='main-inline'>
+                <h2>Software Developer</h2>
+                <div className="dropdown">
+                  <div className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" >
+                    <i className="bi bi-three-dots-vertical"></i>
+                  </div>
+                  <ul className="dropdown-menu">
+                    <li><a className="dropdown-item" href="#">Edit</a></li>
+                    <li><a className="dropdown-item" href="#">Report</a></li>
+                    <li><a className="dropdown-item" href="#">Opations 3</a></li>
+                  </ul>
+                </div>
+              </div>
 
-<div className='mt-4 mb-4'>
-  <div className='main-inline'>
-    <p>
-  <span><i class="bi bi-calendar2-event-fill"></i></span>
-  <span> Fri, 12 Oct, 2018</span>
-  
-    </p>
-    <p>
-  <span><i class="bi bi-geo-alt"></i></span>
-    Ahmedabad, India
-    </p>
-  </div>
-</div>
+              <div className='mt-4 mb-4'>
+                <div className='main-inline'>
+                  <p>
+                    <span><i className="bi bi-calendar2-event-fill"></i></span>
+                    <span> Innovoccer Analytics Private Ltd.</span>
 
-<div className="d-grid">
-<button type="button" class="mb-4 btn btn-outline-danger">Visit Website</button>
-</div>
+                  </p>
+                  <p>
+                    <span><i className="bi bi-geo-alt"></i></span>
+                    Noida, India
+                  </p>
+                </div>
+              </div>
 
+              <div className="d-grid">
+                <button type="button" className="mb-4 btn btn-outline-success">Apply On TimesJob</button>
+              </div>
 
 
-<div className='main-inline'>
-<div className='spaces'>
-    <img src={ronal} alt="" />
-    <h6>Ronal Jones</h6>
-</div>
-<div className='spaces'>
-    <p><i class="bi bi-eye-fill"></i></p>
-    <p> 1.4k views</p>
-</div>
-<i class="bi bi-share"></i>
-</div>
-</div>
-            </div> */}
+
+              <div className='main-inline'>
+                <div className='spaces'>
+                  <img src={joseph} alt="" />
+                  <h6>Ronal Jones</h6>
+                </div>
+                <div className='spaces'>
+                  <p><i className="bi bi-eye-fill"></i></p>
+                  <p> 1.4k views</p>
+                </div>
+                <div className='bgColor'>
+
+                  <i className="bi bi-share "></i>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="col-md-4 center">
           <div>
 
             <div className='center'>
-              <div class="horizontal-line">
+              <div className="horizontal-line">
                 <span className='icons-search'>
-                  <i class="bi bi-geo-alt-fill"></i>
+                  <i className="bi bi-geo-alt-fill"></i>
                 </span>
-                <input type="text" id="name" name="name" class="input-field" placeholder="Enter your location" />
+                <input type="text" id="name" name="name" className="input-field" placeholder="Enter your location" />
               </div>
             </div>
             <div></div>
             <p className='mt-2 mb-2'> <span><img src={Vector} width={16} alt="" /></span> Your location will help us serve better and extend a personalised experience.</p>
 
             <div className='center'>
-              <h6 className='mt-4 mb-4'> <span><i class="bi bi-hand-thumbs-up p-3"></i></span>  REcommended Groups</h6>
+              <h6 className='mt-4 mb-4'> <span><i className="bi bi-hand-thumbs-up p-3"></i></span>  REcommended Groups</h6>
             </div>
 
             <div className='main-inline'>

@@ -62,7 +62,7 @@ const MyNavbar = () => {
               <span className="modal-title alert-font alert alert-success text-bold" id="exampleModalLabel" >
                 Let's learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼
               </span>
-              <div className='brn-end'>
+              <div className='d-flex justify-content-end pe-3'>
                 <button type="button" className="btn-close btn-primary" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div className="modal-body">
